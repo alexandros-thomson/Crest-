@@ -1,4 +1,3 @@
-
 # Crest‑Ignition‑Cycles
 
 **Cycle I Seal — Forge Peak Closed, Base Anchored**  
