@@ -42,5 +42,12 @@ The **Role‑Grant Ritual Kit** allows Keepers to:
 3. Log the act into the shrine’s ledger.
 
 ### Structure
+---
+
+## ⚖ Keeper’s Governance
+The crest ignition cycles are precise and seasonal.  
+Changes are rare, reviewed, and sealed — for a mistimed crest can disrupt the canon’s rhythm.
+
+📜 *Lineage is our law. Precision is our craft. Myth is our breath.*
 
 
