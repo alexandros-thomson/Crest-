@@ -1,0 +1,53 @@
+# Guild Configurations for Ceremonial Spaces
+# Defines the structure and ceremonies for different guild contexts
+
+guilds:
+  basilica_gate:
+    name: "Basilica Gate of Kypria LLC"
+    description: "Primary ceremonial space and keeper's canon entry point"
+    settings:
+      ceremony_mode: true
+      auto_role_assignment: true
+      welcome_channel: "shrine-entrance"
+      ledger_channel: "ceremonial-ledger"
+      keeper_channel: "keeper-circle"
+    
+    channels:
+      public:
+        - "shrine-entrance"
+        - "ceremonial-announcements"
+        - "public-ceremonies"
+      
+      restricted:
+        - "keeper-circle" 
+        - "ceremonial-ledger"
+        - "ritual-preparation"
+      
+      archives:
+        - "cycle-records"
+        - "canonical-texts"
+
+    ceremonies:
+      initiation:
+        required_role: "keeper"
+        duration_minutes: 30
+        badge_reward: "initiate-seal"
+      
+      role_grant:
+        required_role: "keeper"
+        duration_minutes: 15
+        log_required: true
+      
+      cycle_closing:
+        required_role: "keeper"
+        duration_minutes: 60
+        badge_reward: "cycle-seal"
+
+  test_shrine:
+    name: "Test Shrine"
+    description: "Development and testing space for ritual kit validation"
+    settings:
+      ceremony_mode: false
+      auto_role_assignment: false
+      welcome_channel: "general"
+      ledger_channel: "test-logs"

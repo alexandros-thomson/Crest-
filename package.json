@@ -1,0 +1,33 @@
+{
+  "name": "crest-ignition-cycles",
+  "version": "1.0.0",
+  "description": "Ceremonial and operational artifacts for shrine ignition cycles with Role-Grant Ritual Kit",
+  "main": "kit/scripts/grant-role.js",
+  "scripts": {
+    "grant-role": "node kit/scripts/grant-role.js",
+    "affix-badge": "node kit/scripts/affix-badge.js",
+    "log-ledger": "node kit/scripts/log-ledger.js"
+  },
+  "keywords": [
+    "discord",
+    "roles",
+    "badges",
+    "ceremonial",
+    "ritual-kit"
+  ],
+  "author": "Keeper Circle",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "yaml": "^2.3.0",
+    "fs-extra": "^11.1.0",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandros-thomson/Crest-.git"
+  }
+}

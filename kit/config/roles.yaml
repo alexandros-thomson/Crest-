@@ -1,0 +1,47 @@
+# Role Definitions for the Keeper Circle
+# Each role represents a ceremonial position within the shrine hierarchy
+
+roles:
+  keeper:
+    name: "Keeper"
+    description: "Guardian of the shrine's ceremonial knowledge and keeper of the canon"
+    color: "#FFD700"
+    permissions:
+      - "grant_roles"
+      - "affix_badges"
+      - "access_ledger"
+    level: 10
+
+  herald:
+    name: "Herald"
+    description: "Announcer of ceremonial events and messenger of the shrine"
+    color: "#FF6B35"
+    permissions:
+      - "announce_ceremonies"
+      - "access_public_ledger"
+    level: 7
+
+  acolyte:
+    name: "Acolyte"
+    description: "Student of the ceremonial ways and aspiring keeper"
+    color: "#4ECDC4"
+    permissions:
+      - "participate_ceremonies"
+      - "view_basic_ledger"
+    level: 5
+
+  initiate:
+    name: "Initiate"
+    description: "Newly arrived seeker beginning their ceremonial journey"
+    color: "#45B7D1"
+    permissions:
+      - "attend_open_ceremonies"
+    level: 1
+
+  guest:
+    name: "Guest"
+    description: "Visitor to the shrine, observer of public ceremonies"
+    color: "#95A5A6"
+    permissions:
+      - "view_public_areas"
+    level: 0
