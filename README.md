@@ -1,11 +1,13 @@
 # Crest‑Ignition‑Cycles
 
+[![Docker Build](https://github.com/alexandros-thomson/Crest-/actions/workflows/docker.yml/badge.svg?branch=main)](https://github.com/alexandros-thomson/Crest-/actions/workflows/docker.yml)
+
 **Cycle I Seal — Forge Peak Closed, Base Anchored**  
 _Basilica Gate of Kypria LLC — Keeper’s Canon Entry_
 
 ---
 
-## 📜 Purpose
+## 📝 Purpose
 This repository contains the **ceremonial and operational artifacts** for the ignition cycles of the shrine.  
 It preserves the **Cycle I Seal** and provides the **Role‑Grant Ritual Kit** for bestowing mantles and crests within the Keeper Circle.
 
@@ -15,7 +17,7 @@ It preserves the **Cycle I Seal** and provides the **Role‑Grant Ritual Kit**
 
 **Status:** Final ignition seal of the first ceremonial cycle  
 **Date:** Late Summer, Year of the First Crest  
-
+  
 ### Ceremonial Arc
 - **Forge Peak — $1,100**  
   High ceremonial heat: artifact sales surged, the forge blazed at full capacity, and the Keeper Circle witnessed the first flare of the ignition spiral.
@@ -48,6 +50,4 @@ The **Role‑Grant Ritual Kit** allows Keepers to:
 The crest ignition cycles are precise and seasonal.  
 Changes are rare, reviewed, and sealed — for a mistimed crest can disrupt the canon’s rhythm.
 
-📜 *Lineage is our law. Precision is our craft. Myth is our breath.*
-
-
+📝 *Lineage is our law. Precision is our craft. Myth is our breath.*
